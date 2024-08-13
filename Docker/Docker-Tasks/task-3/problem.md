@@ -8,8 +8,9 @@
 
 #### Create a new React application:
 
-    ```bash
-       npx create-react-app my-app
+```bash
+    npx create-react-app my-app
+ ```
 #### Test the React application locally:
 
  ```bash
