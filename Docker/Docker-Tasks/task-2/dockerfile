@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Nginx Page</title>
-</head>
-<body>
-    <h1>Welcome to My Nginx Page</h1>
-</body>
-</html>
+FROM nginx:latest
 
+COPY index.html /usr/share/nginx/html/index.html
+
+COPY nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 8080
