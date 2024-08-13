@@ -12,10 +12,10 @@ This guide provides instructions for creating a custom Docker image for Nginx wi
 
 ### 4. Build the Docker Image
 
-'''bash 
 docker build -t custom-nginx .
 
 ### 5. Create a Container from the New Image
+
 docker run -d --name custom-nginx-container -p 8080:8080 custom-nginx
 
 
