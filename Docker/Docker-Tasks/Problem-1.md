@@ -23,6 +23,8 @@ First, create two Docker volumes to store HTML files and Nginx configuration:
          -p 8080:80 \
           nginx
 ### 3. Stop and Remove the Existing Nginx Container
+
+
     ```bash
       docker stop my-nginx
       docker rm my-nginx
