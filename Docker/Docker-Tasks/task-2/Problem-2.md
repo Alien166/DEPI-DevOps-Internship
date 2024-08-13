@@ -16,7 +16,7 @@ docker build -t custom-nginx .
 
 ### 5. Create a Container from the New Image
 
-docker run -d --name custom-nginx-container -p 8080:8080 custom-nginx
+docker run -d --name custom-nginx-container -p 8080:80 custom-nginx
 
 
 
