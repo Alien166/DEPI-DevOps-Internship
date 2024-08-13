@@ -2,6 +2,7 @@
 
 #### install create-react-app
 
+
     ```bash
        npm install -g create-react-app
 
@@ -10,9 +11,8 @@
     ```bash
        npx create-react-app my-app
 #### Test the React application locally:
-
-    ```bash
-        cd my-app
-        npm start
-     
+\```
+  cd my-react-app
+  npm start
+  \```
 
