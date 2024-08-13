@@ -3,9 +3,9 @@
 #### install create-react-app
 
 
-    ```bash
+```bash
        npm install -g create-react-app
-
+```
 #### Create a new React application:
 
 ```bash
