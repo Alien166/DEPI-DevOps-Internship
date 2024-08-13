@@ -11,8 +11,7 @@
     ```bash
        npx create-react-app my-app
 #### Test the React application locally:
-\```
-  cd my-react-app
-  npm start
-  \```
 
+ ```bash
+       cd my-app
+       npm start
